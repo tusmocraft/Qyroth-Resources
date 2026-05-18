@@ -1,4 +1,10 @@
-# 🌐 Qyroth Resources Hub
+# <p align="center"> 🌐 Qyroth Resources Hub </p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/tusmocraft/Qyroth-Resources?style=for-the-badge&color=7159c1&labelColor=202024" alt="License">
+  <img src="https://img.shields.io/github/last-commit/tusmocraft/Qyroth-Resources?style=for-the-badge&color=7159c1&labelColor=202024" alt="Last Commit">
+  <img src="https://img.shields.io/discord/1452289286224220242?style=for-the-badge&logo=discord&logoColor=white&color=7289da&labelColor=202024" alt="Discord Online">
+</p>
 
 <p align="center">
   <pre>
@@ -20,27 +26,29 @@
 
 ---
 
-## 🚀 Acerca del Proyecto
-Bienvenido al repositorio oficial de **Qyroth Resources**. Este espacio ha sido creado para centralizar y compartir recursos de alta calidad para administradores de servidores, desarrolladores y entusiastas técnico.
-
-Todos los archivos aquí presentes han sido verificados y optimizados por el equipo de administración de **Qyroth**.
-
-## 🛠️ Cómo usar estos recursos
-1.  Navega por las carpetas y selecciona el recurso que necesites.
-2.  Haz clic en el archivo y luego en el botón **"Raw"** para ver el código limpio.
-3.  Copia el contenido o descarga el archivo directamente.
-
-## 📜 Licencia
-Este proyecto está bajo la **Licencia MIT**. Puedes usar, copiar y modificar los recursos siempre que mantengas los créditos originales de **Qyroth Resources**.
+## 💎 Excelencia en Recursos Digitales
+> [!TIP]
+> **Qyroth Resources** es la librería definitiva para SysAdmins y Developers. Cada archivo en este repositorio ha pasado por un control de calidad riguroso para asegurar que tu infraestructura sea **impecable**.
 
 ---
 
-## 🔗 Enlaces de Interés
-* **Discord:** [Únete a nuestra comunidad](https://discord.com/invite/tBTJ739xCR)
-* **Web:** [qyroth.giize.com](https://qyroth.giize.com)
-* **Soporte:** Abre un ticket en nuestro servidor si tienes dudas sobre algún recurso.
+### 📑 Menú de Navegación Rápida
+| 💠 Sección | 🛠️ Contenido | 🚥 Estado |
+| :--- | :--- | :--- |
+| **`./configs`** | Configuraciones YAML avanzadas | 🟢 **Estable** |
+| **`./scripts`** | Automatización y Lógica custom | 🟡 **Beta** |
+| **`./guias`** | Documentación técnica Master | 🟢 **Disponible** |
+| **`./assets`** | Branding, Logos y UI Design | 🟢 **Online** |
 
 ---
-<p align="center">
-  Mantenido con ❤️ por <b>Qyroth Services</b>
-</p>
+
+### 🛠️ Flujo de Implementación
+Para garantizar que los recursos funcionen sin errores, sigue estos pasos:
+
+1. **Explorar:** Navega por los directorios usando la interfaz de GitHub.
+2. **Raw:** Abre el archivo y selecciona la vista `Raw` para evitar caracteres fantasma.
+3. **Copia:** Implementa el código en tu entorno de producción.
+
+```bash
+# ¿Eres un usuario Pro? Clona todo el repositorio de una vez
+git clone [https://github.com/tusmocraft/Qyroth-Resources.git](https://github.com/tusmocraft/Qyroth-Resources.git)
