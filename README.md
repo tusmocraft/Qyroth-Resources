@@ -1,9 +1,10 @@
-# <p align="center"> 🌐 Qyroth Resources Hub </p>
+# <p align="center"> 🌐 QYROTH RESOURCES HUB </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/tusmocraft/Qyroth-Resources?style=for-the-badge&color=7159c1&labelColor=202024" alt="License">
-  <img src="https://img.shields.io/github/last-commit/tusmocraft/Qyroth-Resources?style=for-the-badge&color=7159c1&labelColor=202024" alt="Last Commit">
-  <img src="https://img.shields.io/discord/1452289286224220242?style=for-the-badge&logo=discord&logoColor=white&color=7289da&labelColor=202024" alt="Discord Online">
+  <img src="https://img.shields.io/github/license/tusmocraft/Qyroth-Resources?style=for-the-badge&color=6e5494&labelColor=1c1c1c" alt="License">
+  <img src="https://img.shields.io/github/stars/tusmocraft/Qyroth-Resources?style=for-the-badge&color=6e5494&labelColor=1c1c1c" alt="Stars">
+  <img src="https://img.shields.io/github/last-commit/tusmocraft/Qyroth-Resources?style=for-the-badge&color=6e5494&labelColor=1c1c1c" alt="Last Commit">
+  <img src="https://img.shields.io/discord/1452289286224220242?style=for-the-badge&logo=discord&logoColor=white&color=5865F2&labelColor=1c1c1c" alt="Discord Online">
 </p>
 
 <p align="center">
@@ -26,29 +27,41 @@
 
 ---
 
-## 💎 Excelencia en Recursos Digitales
-> [!TIP]
-> **Qyroth Resources** es la librería definitiva para SysAdmins y Developers. Cada archivo en este repositorio ha pasado por un control de calidad riguroso para asegurar que tu infraestructura sea **impecable**.
+## 📑 Índice
+* [⭐ Acerca de Qyroth](#-acerca-de-qyroth)
+* [🛠️ Tecnologías Soportadas](#️-tecnologías-soportadas)
+* [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+* [🚀 Guía de Implementación](#-guía-de-implementación)
+* [🛡️ Seguridad y Calidad](#️-seguridad-y-calidad)
+* [🤝 Contribuciones](#-contribuciones)
 
 ---
 
-### 📑 Menú de Navegación Rápida
-| 💠 Sección | 🛠️ Contenido | 🚥 Estado |
-| :--- | :--- | :--- |
-| **`./configs`** | Configuraciones YAML avanzadas | 🟢 **Estable** |
-| **`./scripts`** | Automatización y Lógica custom | 🟡 **Beta** |
-| **`./guias`** | Documentación técnica Master | 🟢 **Disponible** |
-| **`./assets`** | Branding, Logos y UI Design | 🟢 **Online** |
+## ⭐ Acerca de Qyroth
+**Qyroth Resources** es una iniciativa de **Qyroth Services** diseñada para proporcionar a la comunidad de desarrolladores y SysAdmins herramientas de alto rendimiento. Nuestra misión es eliminar la complejidad técnica ofreciendo archivos listos para producción.
+
+> [!IMPORTANT]
+> **Aviso de Uso:** Todos los archivos están optimizados para versiones recientes de software (2026). Recomendamos realizar pruebas en entornos de desarrollo antes de pasar a producción.
 
 ---
 
-### 🛠️ Flujo de Implementación
-Para garantizar que los recursos funcionen sin errores, sigue estos pasos:
+## 🛠️ Tecnologías Soportadas
+<p align="left">
+  <img src="https://img.shields.io/badge/Minecraft-Server-11ad11?style=flat-square&logo=minecraft&logoColor=white" />
+  <img src="https://img.shields.io/badge/YAML-Configuration-cb171e?style=flat-square&logo=yaml&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-SysAdmin-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub-DevOps-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Discord-API-5865F2?style=flat-square&logo=discord&logoColor=white" />
+</p>
 
-1. **Explorar:** Navega por los directorios usando la interfaz de GitHub.
-2. **Raw:** Abre el archivo y selecciona la vista `Raw` para evitar caracteres fantasma.
-3. **Copia:** Implementa el código en tu entorno de producción.
+---
 
+## 📁 Estructura del Proyecto
 ```bash
-# ¿Eres un usuario Pro? Clona todo el repositorio de una vez
-git clone [https://github.com/tusmocraft/Qyroth-Resources.git](https://github.com/tusmocraft/Qyroth-Resources.git)
+📂 Qyroth-Resources
+ ┣ 📂 assets          # Logos, banners y recursos visuales (branding).
+ ┣ 📂 configs         # Configuraciones .yml (Essentials, LuckPerms, etc).
+ ┣ 📂 docs            # Manuales de instalación y guías de optimización.
+ ┣ 📂 scripts         # Lógica personalizada (Skript, Bash, Python).
+ ┣ 📜 LICENSE         # Licencia MIT de uso abierto.
+ ┗ 📜 README.md       # Documentación principal.
