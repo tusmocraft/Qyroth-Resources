@@ -1,0 +1,143 @@
+#  ██████╗ ██╗   ██╗██████╗  ██████╗ ████████╗██╗  ██╗
+# ██╔═══██╗╚██╗ ██╔╝██╔══██╗██╔═══██╗╚══██╔══╝██║  ██║
+# ██║   ██║ ╚████╔╝ ██████╔╝██║   ██║   ██║   ███████║
+# ██║▄▄ ██║  ╚██╔╝  ██╔══██╗██║   ██║   ██║   ██╔══██║
+# ╚██████╔╝   ██║   ██║  ██║╚██████╔╝   ██║   ██║  ██║
+#  ╚══▀▀═╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+#  
+#  ██████╗ ███████╗███████╗ ██████╗ ██╗   ██╗██████╗  ██████╗███████╗███████╗
+#  ██╔══██╗██╔════╝██╔════╝██╔═══██╗██║   ██║██╔══██╗██╔════╝██╔════╝██╔════╝
+#  ██████╔╝█████╗  ███████╗██║   ██║██║   ██║██████╔╝██║     █████╗  ███████╗
+#  ██╔══██╗██╔══╝  ╚════██║██║   ██║██║   ██║██╔══██╗██║     ██╔══╝  ╚════██║
+#  ██║  ██║███████╗███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗███████║
+#
+
+menu_title: '&8Menu de Guías'
+open_command:
+  - guia
+  - guias
+register_command: true
+size: 36
+
+items:
+  # --- DECORACIÓN ---
+  'background':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: [0-35]
+    display_name: '&7'
+
+  'highlight':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    display_name: '&7'
+
+  # --- ICONOS INTERACTIVOS ---
+  'store':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMyNjM5NDRkODdkMWM2NmNmOGFjM2YxM2MyMzgyMjdhZTkxYmM1ZTRjNDJhOGFjZThjMWJmNWI3ZWI4YjMifX19
+    slot: 12
+    display_name: "&#a1ffce&l🛒 TIENDA WEB"
+    lore:
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7"
+      - "&a&l┃ &fInformación:"
+      - "&f¡Apoya al servidor y consigue"
+      - "&fventajas exclusivas en nuestra web!"
+      - "&7"
+      - "&a&l┃ &fComando: &a/store"
+      - "&7"
+      - "&e➤ Haz clic para ir a la tienda"
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    left_click_commands:
+      - '[close]'
+      - '[player] store'
+    right_click_commands:
+      - '[close]'
+      - '[player] store'
+
+  'shop':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkZWEwNGZiYTlmYWNiNjY0OGFlYmU1MGU3ZDk2ZDY1ZGVmZTkzN2VjNmQ2ZmM5OGU1ZGZmMzFjZTQ1MDlhIn19fQ==
+    slot: 14
+    display_name: "&#ff5f6d&l💰 ECONOMÍA LOCAL"
+    lore:
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7"
+      - "&c&l┃ &fInformación:"
+      - "&f¿Cansado de farmear? Intercambia"
+      - "&ftus monedas por materiales valiosos."
+      - "&7"
+      - "&c&l┃ &fComando: &c/shop"
+      - "&7"
+      - "&e➤ Haz clic para abrir la tienda"
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    left_click_commands:
+      - '[close]'
+      - '[player] shop'
+    right_click_commands:
+      - '[close]'
+      - '[player] shop'
+
+  'kits':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJhNzQyNWJmMGUwMzk2MDg4NmE5ZThmNjAxYmY2MDViMjViMTI2OTE3YmJkMTMyOTFiOGExNDc1Yzk1ZjcifX19
+    slot: 20
+    display_name: "&#fbd3e9&l📦 KITS INICIALES"
+    lore:
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7"
+      - "&d&l┃ &fInformación:"
+      - "&fReclama tus herramientas básicas"
+      - "&fy armaduras de batalla gratis."
+      - "&7"
+      - "&d&l┃ &fComando: &d/kits"
+      - "&7"
+      - "&e➤ Haz clic para ver los kits"
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    left_click_commands:
+      - '[close]'
+      - '[player] kits'
+    right_click_commands:
+      - '[close]'
+      - '[player] kits'
+
+  'auction':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAyNmRjYmQ5MjYyZjI4MzcwMzgzMzZlODZkMTc4ZDg1YmVjYzcxMzYyMDQ1MTdhOTk5OWQ3ZDMwNDU3M2JmIn19fQ==
+    slot: 22
+    display_name: "&#f7971e&l⚖ CASA DE SUBASTAS"
+    lore:
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7"
+      - "&6&l┃ &fInformación:"
+      - "&fEl mercado libre de los jugadores."
+      - "&f¡Compra barato y vende caro!"
+      - "&7"
+      - "&6&l┃ &fComando: &6/ah"
+      - "&7"
+      - "&e➤ Haz clic para subastar"
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    left_click_commands:
+      - '[close]'
+      - '[player] ah'
+    right_click_commands:
+      - '[close]'
+      - '[player] ah'
+
+  'warps':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMzODdkM2U3MGM5NzhkOTI4ZTM2ZjFhNGU1YjIyNDUyZjk5YzliZGFhNWNiZWViODg5NDkyNjJlOTc5In19fQ==
+    slot: 24
+    display_name: "&#2193ff&l📍 TELETRANSPORTES"
+    lore:
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7"
+      - "&9&l┃ &fInformación:"
+      - "&fViaja instantáneamente a las"
+      - "&fzonas más importantes del mundo."
+      - "&7"
+      - "&9&l┃ &fComando: &9/warps"
+      - "&7"
+      - "&e➤ Haz clic para viajar"
+      - "&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    left_click_commands:
+      - '[close]'
+      - '[player] warps'
+    right_click_commands:
+      - '[close]'
+      - '[player] warps'
